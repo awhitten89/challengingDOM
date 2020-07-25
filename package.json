@@ -1,0 +1,22 @@
+{
+  "name": "challengingdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awhitten89/challengingDOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awhitten89/challengingDOM/issues"
+  },
+  "homepage": "https://github.com/awhitten89/challengingDOM#readme",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
