@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('getTableRow', () => {
+    cy.get('tbody > tr')
+})
+
+Cypress.Commands.add('getCell', (row, cell) => {
+    cy.get('tbody > tr').eq(row).find('td').eq(cell)
+})
